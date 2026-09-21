@@ -1,5 +1,5 @@
 # FLARE 2026 AutoMSC pipeline
-```
+------------------------------------------
 
 ## 1. Installation with uv
 
