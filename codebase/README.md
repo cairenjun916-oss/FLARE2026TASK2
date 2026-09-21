@@ -1,28 +1,5 @@
 # FLARE 2026 AutoMSC pipeline
-
-## Quick Dataset008 test
-
-From the `codebase/` directory, run:
-
-```bash
-chmod +x test_dataset008.sh
-./test_dataset008.sh
-```
-
-This checks Dataset008, the command interface, automatic configuration, and
-the unit tests without training. The default dataset location is
-`/home/rc411/Data/renjure/AutoMSC2026Data/Dataset008_EGCT`. To use another
-location:
-
-```bash
-./test_dataset008.sh check /absolute/path/to/Dataset008_EGCT
-```
-
-For a one-epoch segmentation, classification, and inference smoke test:
-
-```bash
-./test_dataset008.sh train /absolute/path/to/Dataset008_EGCT
-```
+------------------------------------------
 
 ## 1. Installation with uv
 
